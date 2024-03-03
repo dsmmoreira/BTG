@@ -137,12 +137,6 @@ namespace KnightsTour.Controllers
         [HttpGet("ListHeroes")]
         public async Task<ActionResult<List<KnightsDto>>> GetHeroKnights()
         {
-            //var teste1 = DateTime.Today.AddYears(-15).Year;
-            //var teste = await _context.KnightItens
-            //   .Include(knight => knight.Weapons)
-            //   .Include(knight => knight.Attributes)
-            //   .Where(knight => knight.Birthday.Year >= teste1)
-            //   .ToListAsync();
             var knightsDto = (await _context.KnightItens
                .Include(knight => knight.Weapons)
                .Include(knight => knight.Attributes)
