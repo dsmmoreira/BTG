@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "es6",
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": "http://localhost:5000",
+      "paths": {
+        "@/*": [
+          "src/*"
+        ]
+      }
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }

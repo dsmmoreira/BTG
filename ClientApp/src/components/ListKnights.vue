@@ -62,7 +62,7 @@
                     });
             },
             goToDetails(id) {
-                this.$router.push(`/View/${id}`);
+                this.$router.push(`/DetailsKnight/${id}`);
             },
             goToEditNickname(id) {
                 this.$router.push(`/EditKnights/${id}`);

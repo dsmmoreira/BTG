@@ -5,7 +5,6 @@ import CreateKnights from "@/components/CreateKnight.vue";
 import EditKnights from "@/components/EditKnights.vue";
 import DetailsKnight from "@/components/DetailsKnight.vue";
 import ListHeroes from "@/components/ListHeroes.vue";
-import View from "@/components/View.vue";
 
 
 const routes = [
@@ -40,12 +39,6 @@ const routes = [
         path: "/ListHeroes",
         name: "ListHeroes",
         component: ListHeroes
-    },
-    {
-        path: "/View/:id",
-        name: "View",
-        component: View,
-        props: true
     }
 ];
 

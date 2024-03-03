@@ -36,6 +36,7 @@
   
 </style>
 <script>
+
     export default {
         name: "NavMenu",
         data() {
@@ -51,6 +52,6 @@
             toggle() {
                 this.isExpanded = !this.isExpanded;
             }
-        }
+        },
     }
 </script>
